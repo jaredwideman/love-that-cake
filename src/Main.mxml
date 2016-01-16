@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" width="400" height="400" applicationComplete="start()">
+	<mx:Script>
+		<![CDATA[
+		import mx.controls.*;
+			public function start():void {
+				addChild(new DisplayObjectUIComponent(new loveThatCake())); 
+			}
+		]]>
+	</mx:Script>
+</mx:Application>
